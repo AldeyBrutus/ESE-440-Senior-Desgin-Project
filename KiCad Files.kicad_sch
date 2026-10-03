@@ -148,7 +148,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 92.71) (xy 143.51 92.71)
+			(xy 134.62 92.71) (xy 167.64 92.71)
 		)
 		(stroke
 			(width 0)
@@ -158,7 +158,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 85.09) (xy 134.62 85.09)
+			(xy 167.64 85.09) (xy 134.62 85.09)
 		)
 		(stroke
 			(width 0)
@@ -250,7 +250,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 88.9 0)
+		(at 167.64 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -261,7 +261,7 @@
 		(fields_autoplaced yes)
 		(uuid "b09dbecf-0576-4a14-879c-1778c751a009")
 		(property "Reference" "R2"
-			(at 146.05 87.6299 0)
+			(at 170.18 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -272,7 +272,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 146.05 90.1699 0)
+			(at 170.18 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -283,7 +283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 141.732 88.9 90)
+			(at 165.862 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -294,7 +294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 88.9 0)
+			(at 167.64 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -305,7 +305,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 88.9 0)
+			(at 167.64 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
