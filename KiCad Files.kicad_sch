@@ -5,20 +5,14 @@
 	(uuid "02e8e4b0-2d68-453f-9f10-22ddb8bef6dd")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "Custom_Symbols:MB2S"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "D"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -27,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "MB2S"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -38,17 +32,6 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,7 +42,7 @@
 					)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mb8s-d.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -70,7 +53,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -81,7 +64,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "ki_keywords" "bridge rectifier diode MB2S SOIC4 onsemi"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -92,12 +75,12 @@
 					)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "MB2S_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -3.81 -1.27)
+					(end 3.81 -10.16)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -105,11 +88,11 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "MB2S_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -125,9 +108,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
+					(at -6.35 -7.62 0)
+					(length 2.54)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -142,33 +125,49 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 134.62 92.71) (xy 167.64 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78f8cc4a-74e2-4be3-b36e-af424feac087")
-	)
-	(wire
-		(pts
-			(xy 167.64 85.09) (xy 134.62 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d747659-c329-48d2-ad0c-c622806ace27")
-	)
 	(symbol
-		(lib_id "Device:R")
-		(at 134.62 88.9 0)
+		(lib_id "Custom_Symbols:MB2S")
+		(at 132.08 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -177,31 +176,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0f17d60d-1a34-4bf7-86b4-b8f2ae297945")
-		(property "Reference" "R1"
-			(at 137.16 87.6299 0)
+		(uuid "72d6a947-9e8e-4d11-9b8e-b963c25ce3d0")
+		(property "Reference" "D1"
+			(at 132.08 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 137.16 90.1699 0)
+		(property "Value" "MB2S"
+			(at 132.08 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 132.842 88.9 90)
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -211,8 +208,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 134.62 88.9 0)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mb8s-d.pdf"
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -222,8 +219,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 134.62 88.9 0)
+		(property "Description" ""
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -233,98 +230,22 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "e12da305-e1ba-403e-89cb-5a38b66ec902")
+		(pin "4"
+			(uuid "fc0f7f88-b9ad-46d9-a663-956cbdd74306")
 		)
 		(pin "1"
-			(uuid "6093e25a-8b26-4869-a3ce-85dfaa8a4d51")
+			(uuid "a2a1dae0-3f13-4b5d-919c-62101c09f906")
+		)
+		(pin "3"
+			(uuid "61a9e8ed-12a3-44d7-8e7e-12f4905943c2")
+		)
+		(pin "2"
+			(uuid "55171a85-d264-4767-9ae3-511ce479c9b9")
 		)
 		(instances
 			(project "KiCad Files"
 				(path "/02e8e4b0-2d68-453f-9f10-22ddb8bef6dd"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 167.64 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b09dbecf-0576-4a14-879c-1778c751a009")
-		(property "Reference" "R2"
-			(at 170.18 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 170.18 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.862 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 167.64 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dcbf4a09-2367-4eec-b3fa-3464e3e03a29")
-		)
-		(pin "1"
-			(uuid "8460a0d8-6980-47e1-9d07-f6b550be01ff")
-		)
-		(instances
-			(project "KiCad Files"
-				(path "/02e8e4b0-2d68-453f-9f10-22ddb8bef6dd"
-					(reference "R2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
