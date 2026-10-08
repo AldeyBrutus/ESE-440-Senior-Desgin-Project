@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 43.18 90.17)
+		(at 41.91 85.09)
 		(size 31.75 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "4d08ea0f-c419-42f4-9248-aebc8c20c71a")
 		(property "Sheetname" "Power Circuitry"
-			(at 43.18 89.4584 0)
+			(at 41.91 84.3784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_circuit.kicad_sch"
-			(at 43.18 122.5046 0)
+			(at 41.91 117.4246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44,7 +44,7 @@
 			)
 		)
 		(instances
-			(project "KiCad Files"
+			(project "Main_circuit"
 				(path "/02e8e4b0-2d68-453f-9f10-22ddb8bef6dd"
 					(page "2")
 				)
@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 146.05 88.9)
+		(at 118.11 83.82)
 		(size 41.91 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "ab5c4300-8f4d-4197-8fda-cee517bb28d0")
 		(property "Sheetname" "IC Circuitry"
-			(at 146.05 88.1884 0)
+			(at 118.11 83.1084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "IC_circuit.kicad_sch"
-			(at 146.05 126.3146 0)
+			(at 118.11 121.2346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -90,9 +90,55 @@
 			)
 		)
 		(instances
-			(project "KiCad Files"
+			(project "Main_circuit"
 				(path "/02e8e4b0-2d68-453f-9f10-22ddb8bef6dd"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 96.52)
+		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bd01ca86-a8a0-4a35-8219-79c93636756b")
+		(property "Sheetname" "Capacitive Touch circuitry"
+			(at 200.66 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Cap_touch_circuit.kicad_sch"
+			(at 200.66 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_circuit"
+				(path "/02e8e4b0-2d68-453f-9f10-22ddb8bef6dd"
+					(page "4")
 				)
 			)
 		)

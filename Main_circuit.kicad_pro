@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KiCad Files.kicad_pro",
+    "filename": "Main_circuit.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -643,8 +643,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "KiCad Files.kicad_sch",
-        "name": "KiCad Files",
+        "filename": "Main_circuit.kicad_sch",
+        "name": "Main_circuit",
         "uuid": "02e8e4b0-2d68-453f-9f10-22ddb8bef6dd"
       }
     ],
@@ -654,7 +654,7 @@
   "sheets": [
     [
       "02e8e4b0-2d68-453f-9f10-22ddb8bef6dd",
-      "KiCad Files"
+      "Main_circuit"
     ],
     [
       "4d08ea0f-c419-42f4-9248-aebc8c20c71a",
@@ -663,6 +663,10 @@
     [
       "ab5c4300-8f4d-4197-8fda-cee517bb28d0",
       "IC Circuitry"
+    ],
+    [
+      "bd01ca86-a8a0-4a35-8219-79c93636756b",
+      "Capacitive Touch circuitry"
     ]
   ],
   "text_variables": {},
