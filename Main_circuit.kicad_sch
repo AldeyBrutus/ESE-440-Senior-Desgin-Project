@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "02e8e4b0-2d68-453f-9f10-22ddb8bef6dd")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 43.18 90.17)
+		(size 31.75 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4d08ea0f-c419-42f4-9248-aebc8c20c71a")
+		(property "Sheetname" "Power Circuitry"
+			(at 43.18 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_circuit.kicad_sch"
+			(at 43.18 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KiCad Files"
+				(path "/02e8e4b0-2d68-453f-9f10-22ddb8bef6dd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 88.9)
+		(size 41.91 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ab5c4300-8f4d-4197-8fda-cee517bb28d0")
+		(property "Sheetname" "IC Circuitry"
+			(at 146.05 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IC_circuit.kicad_sch"
+			(at 146.05 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KiCad Files"
+				(path "/02e8e4b0-2d68-453f-9f10-22ddb8bef6dd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

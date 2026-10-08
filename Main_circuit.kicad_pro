@@ -655,6 +655,14 @@
     [
       "02e8e4b0-2d68-453f-9f10-22ddb8bef6dd",
       "KiCad Files"
+    ],
+    [
+      "4d08ea0f-c419-42f4-9248-aebc8c20c71a",
+      "Power Circuitry"
+    ],
+    [
+      "ab5c4300-8f4d-4197-8fda-cee517bb28d0",
+      "IC Circuitry"
     ]
   ],
   "text_variables": {},
